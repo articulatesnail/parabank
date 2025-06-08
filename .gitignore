@@ -1,0 +1,19 @@
+# Build artifacts
+dist/
+*.js
+*.map
+
+# Dependency Management
+node_modules/
+package-lock.json
+yarn.lock
+
+# Playwright Specific Files
+playwright-report/
+test-results/
+
+# System and IDE Files
+.DS_Store
+.vscode/
+*.log
+*.env
